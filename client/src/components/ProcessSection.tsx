@@ -56,7 +56,7 @@ export default function ProcessSection() {
   };
 
   return (
-    <section className="relative py-24 bg-background overflow-hidden">
+    <section id="process" className="relative py-24 bg-background overflow-hidden scroll-mt-24">
       {/* Background gradient */}
       <div className="absolute left-0 top-0 w-96 h-96 rounded-full opacity-10" style={{
         background: 'radial-gradient(circle, #B000FF 0%, transparent 70%)',

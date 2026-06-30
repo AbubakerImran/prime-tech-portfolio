@@ -80,7 +80,7 @@ const itemVariants = {
 
 export const ProjectsSection: React.FC = () => {
   return (
-    <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-background">
+    <section id="projects" className="relative py-20 px-4 sm:px-6 lg:px-8 bg-background scroll-mt-24">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyan-500/5 to-transparent pointer-events-none" />
 

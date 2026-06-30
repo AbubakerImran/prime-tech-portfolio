@@ -91,7 +91,7 @@ const itemVariants = {
 
 export const ServicesSection: React.FC = () => {
   return (
-    <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-background via-purple-950/5 to-background">
+    <section id="services" className="relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-background via-purple-950/5 to-background scroll-mt-24">
       {/* Background elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-40 left-20 w-80 h-80 bg-cyan-500/5 rounded-full blur-3xl" />        <div className="absolute bottom-40 right-20 w-80 h-80 bg-purple-500/5 rounded-full blur-3xl" />      </div>

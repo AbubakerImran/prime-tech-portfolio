@@ -68,7 +68,7 @@ export default function CapabilitiesSection() {
   };
 
   return (
-    <section className="relative py-24 bg-background overflow-hidden">
+    <section id="capabilities" className="relative py-24 bg-background overflow-hidden scroll-mt-24">
       {/* Background elements */}
       <div className="absolute top-0 right-0 w-96 h-96 rounded-full opacity-10" style={{
         background: 'radial-gradient(circle, #00D9FF 0%, transparent 70%)',

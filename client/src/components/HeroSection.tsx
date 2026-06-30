@@ -114,23 +114,25 @@ export default function HeroSection() {
           <div ref={ctaRef} className="flex flex-wrap gap-4 pt-4">
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Button
+                asChild
                 size="lg"
                 className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg hover:shadow-xl transition-all duration-300"
                 style={{
                   boxShadow: '0 0 20px rgba(0, 217, 255, 0.5)',
                 }}
               >
-                Launch Your Future
+                <a href="#contact">Launch Your Future</a>
               </Button>
             </motion.div>
 
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Button
+                asChild
                 size="lg"
                 variant="outline"
                 className="border-primary text-primary hover:bg-primary/10 transition-all duration-300"
               >
-                Explore Our Work
+                <a href="#projects">Explore Our Work</a>
               </Button>
             </motion.div>
           </div>

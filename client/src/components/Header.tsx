@@ -53,8 +53,9 @@ export default function Header() {
         </nav>
 
         {/* CTA Button */}
-        <motion.button
-          className="hidden md:block px-6 py-2 rounded-lg font-semibold text-white transition-all duration-300"
+        <motion.a
+          href="#contact"
+          className="hidden md:inline-flex px-6 py-2 rounded-lg font-semibold text-white transition-all duration-300"
           style={{
             background: 'linear-gradient(135deg, #00D9FF 0%, #B000FF 100%)',
             boxShadow: '0 0 20px rgba(0, 217, 255, 0.5)',
@@ -69,7 +70,7 @@ export default function Header() {
           whileTap={{ scale: 0.95 }}
         >
           Get Started
-        </motion.button>
+        </motion.a>
 
         {/* Mobile menu button */}
         <motion.button
@@ -101,14 +102,16 @@ export default function Header() {
               {item.label}
             </a>
           ))}
-          <button
-            className="w-full px-6 py-2 rounded-lg font-semibold text-white transition-all duration-300 mt-2"
+          <a
+            href="#contact"
+            className="w-full px-6 py-2 rounded-lg font-semibold text-white transition-all duration-300 mt-2 inline-flex items-center justify-center"
             style={{
               background: 'linear-gradient(135deg, #00D9FF 0%, #B000FF 100%)',
             }}
+            onClick={() => setIsOpen(false)}
           >
             Get Started
-          </button>
+          </a>
         </nav>
       </motion.div>
     </header>
